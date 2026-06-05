@@ -110,4 +110,7 @@ table {
   .page-bg-bot {
     display: none;
   }
+  .page-bg {
+    display: none;
+  }
 }
