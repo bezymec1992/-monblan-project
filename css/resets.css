@@ -81,7 +81,7 @@ table {
   width: 680px;
   height: 100%;
 
-  background: url('../assets/imgs/bg.png') no-repeat top left;
+  background: url('../assets/imgs/bg.webp') no-repeat top left;
   background-size: contain;
 
   z-index: 1;
@@ -97,7 +97,7 @@ table {
   max-width: 380px;
   height: 370px;
 
-  background: url('../assets/imgs/bg-bot.png') no-repeat top right;
+  background: url('../assets/imgs/bg-bot.webp') no-repeat top right;
   z-index: 1;
   pointer-events: none;
   background-size: contain;
