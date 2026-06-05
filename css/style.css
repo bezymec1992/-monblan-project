@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
 }
 
 .hero {
@@ -31,6 +30,7 @@ body {
   align-items: center;
   gap: 17px;
   font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
 }
 
@@ -54,7 +54,11 @@ body {
 }
 
 .hero__stat-value {
-  font-weight: bold;
+  font-weight: 700;
+}
+
+.hero__stat-label {
+  font-weight: 400;
 }
 
 .hero__form {
@@ -65,6 +69,7 @@ body {
 
 .hero__form-title {
   font-size: 16px;
+  font-weight: 400;
 }
 
 .hero__field {
@@ -85,6 +90,8 @@ body {
 
 .hero__input::placeholder {
   color: #636264;
+  font-size: 13px;
+  font-weight: 400;
 }
 
 .hero__action {
