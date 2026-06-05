@@ -1,30 +1,31 @@
-# Test Task
+# Тестовое задание
 
-## Technologies
+## Использованные технологии
 
 - HTML5
 - CSS3
 - JavaScript (ES6)
 - Flatpickr Datepicker
 
-## Implemented
+## Реализовано
 
-- Semantic HTML markup
-- BEM methodology
-- Responsive layout
-- SVG sprite for icons
-- CSS Grid and Flexbox layout
-- Datepicker integration using Flatpickr
-- Grid/List view switcher for cards
-- Hover effects for interactive elements
-- Cross-browser friendly styles
-- Mobile-friendly interface
-- Local font integration using @font-face for improved performance and offline availability
+- Семантическая HTML-разметка
+- Методология БЭМ
+- Адаптивная верстка
+- SVG-спрайт для иконок
+- Построение макета с использованием CSS Grid и Flexbox
+- Интеграция календаря через Flatpickr
+- Переключение отображения карточек (Grid / List)
+- Hover-эффекты для интерактивных элементов
+- Кроссбраузерная совместимость
+- Адаптация под мобильные устройства
+- Локальное подключение шрифтов через `@font-face`
+- Оптимизация изображений и конвертация в формат WebP для уменьшения размера файлов и ускорения загрузки страницы
 
-## Features
+## Функционал
 
-- Date selection using a third-party JavaScript datepicker
-- Date clearing functionality
-- Grid/List cards display toggle
-- Responsive layout for different screen sizes
-- Optimized SVG icons through sprite usage
+- Выбор даты с помощью стороннего Datepicker
+- Очистка выбранной даты
+- Переключение между режимами отображения карточек (сетка / список)
+- Корректное отображение на различных разрешениях экранов
+- Оптимизация SVG-иконок с использованием спрайта
