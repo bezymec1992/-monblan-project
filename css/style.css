@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.hero {
+  padding: 30px 0;
+  background-color: rgba(255, 255, 255, 0.7);
+  z-index: 2;
+  position: relative;
+}
+.hero {
+  box-shadow:
+    0 -10px 20px rgba(0, 0, 0, 0.35),
+    inset 0 10px 20px rgba(0, 0, 0, 0.35);
+}
+
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  max-width: 392px;
+  width: 100%;
+  margin: 0 auto;
+  gap: 17px;
+
+  margin-right: 120px;
+}
+
+.hero__title {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.hero__date {
+  padding: 6px 12px;
+  border: 1px solid #3d8eda;
+  color: #3d8eda;
+  font-size: 13px;
+}
+
+.hero__stats {
+  display: flex;
+  gap: 28px;
+}
+
+.hero__stat {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  font-size: 14px;
+}
+
+.hero__stat-value {
+  font-weight: bold;
+}
+
+.hero__form {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.hero__form-title {
+  font-size: 16px;
+}
+
+.hero__field {
+  display: flex;
+  border: 1px solid #dedede;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.hero__input {
+  width: 100%;
+  padding: 0 8px;
+  border: none;
+  background: white;
+  color: #636264;
+  outline: none;
+}
+
+.hero__input::placeholder {
+  color: #636264;
+}
+
+.hero__action {
+  width: 28px;
+  height: 28px;
+  border: none;
+  border-left: 1px solid #dedede;
+  color: #5f5f5f;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  background-color: #edecec;
+  flex-shrink: 0;
+}
+
+@media (max-width: 650px) {
+  .hero__form {
+    width: 100%;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .hero__title {
+    font-size: 18px;
+  }
+  .hero__content {
+    margin: 0 auto;
+    align-items: center;
+  }
+}

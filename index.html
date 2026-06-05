@@ -1,0 +1,439 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" />
+    <link rel="stylesheet" href="css/resets.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/cards.css" />
+  </head>
+  <body>
+    <div class="page-bg"></div>
+    <header class="hero">
+      <div class="container">
+        <div class="hero__content">
+          <div class="hero__title">
+            monblanproject
+            <span class="hero__date">Start on 17-02-2016</span>
+          </div>
+          <div class="hero__stats">
+            <p class="hero__stat">
+              <span class="hero__stat-value">870</span>
+              <span class="hero__stat-label">posts</span>
+            </p>
+
+            <p class="hero__stat">
+              <span class="hero__stat-value">11,787</span>
+              <span class="hero__stat-label">followers</span>
+            </p>
+
+            <p class="hero__stat">
+              <span class="hero__stat-value">112</span>
+              <span class="hero__stat-label">following</span>
+            </p>
+          </div>
+
+          <form class="hero__form">
+            <p class="hero__form-title">Date</p>
+            <div class="hero__field">
+              <input class="hero__input" type="text" placeholder="from" id="date-from" />
+
+              <button
+                class="hero__action hero__action--clear"
+                type="button"
+                aria-label="Clear date"
+              >
+                <img class="hero__icon" src="assets/icons/cross.svg" alt="cross-icon" />
+              </button>
+
+              <button
+                class="hero__action hero__action--calendar"
+                type="button"
+                aria-label="Open calendar"
+              >
+                <img class="hero__icon" src="assets/icons/calendar.svg" alt="calendar-icon" />
+              </button>
+            </div>
+
+            <div class="hero__field">
+              <input class="hero__input" type="text" placeholder="09-08-2016" id="date-to" />
+
+              <button
+                class="hero__action hero__action--clear"
+                type="button"
+                aria-label="Clear date"
+              >
+                <img class="hero__icon" src="assets/icons/cross.svg" alt="cross-icon" />
+              </button>
+
+              <button
+                class="hero__action hero__action--calendar"
+                type="button"
+                aria-label="Open calendar"
+              >
+                <img class="hero__icon" src="assets/icons/calendar.svg" alt="calendar-icon" />
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </header>
+
+    <section class="posts">
+      <div class="container">
+        <div class="posts__toolbar">
+          <button class="posts__view-btn posts__view-btn--active" data-view="grid" type="button">
+            <svg class="posts__view-icon">
+              <use href="./assets/icons/grid.svg#grid-view"></use>
+            </svg>
+          </button>
+
+          <button class="posts__view-btn" data-view="list" type="button">
+            <svg class="posts__view-icon">
+              <use href="./assets/icons/collumn.svg#list-view"></use>
+            </svg>
+          </button>
+        </div>
+
+        <div class="posts__list posts__list--grid">
+          <article class="post-card">
+            <div class="post-card__image-wrapper">
+              <img class="post-card__image" src="./assets/imgs/img.jpg" alt="Clouds" />
+            </div>
+
+            <div class="post-card__content">
+              <div class="post-card__header mobile-none">
+                <h3 class="post-card__title">Today</h3>
+                <div class="post-card__stats a1">
+                  <span class="post-card__stat">
+                    <img src="assets/icons/heart.svg" alt="heart-icon" />
+                    128</span
+                  >
+                  <span class="post-card__stat">
+                    <img src="assets/icons/msg.svg" alt="msg-icon" />
+                    31</span
+                  >
+                </div>
+              </div>
+
+              <div class="post-card__header">
+                <time class="post-card__date">9-08-2016</time>
+                <div class="post-card__stats a2">
+                  <span class="post-card__stat">
+                    <img src="assets/icons/heart.svg" alt="heart-icon" />
+                    128</span
+                  >
+                  <span class="post-card__stat post-card__right">
+                    <img src="assets/icons/heart.svg" alt="heart-icon" />
+                    67</span
+                  >
+                </div>
+              </div>
+
+              <div class="post-card__description a4">
+                <p class="post-card__upload">Image upload</p>
+                <p class="post-card__time">11-04-2016</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="post-card">
+            <div class="post-card__image-wrapper">
+              <img class="post-card__image" src="./assets/imgs/img2.jpg" alt="Clouds" />
+            </div>
+
+            <div class="post-card__content">
+              <div class="post-card__header mobile-none">
+                <h3 class="post-card__title">Today</h3>
+                <div class="post-card__stats a1">
+                  <span class="post-card__stat">
+                    <img src="assets/icons/heart.svg" alt="heart-icon" />
+                    128</span
+                  >
+                  <span class="post-card__stat">
+                    <img src="assets/icons/msg.svg" alt="msg-icon" />
+                    31</span
+                  >
+                </div>
+              </div>
+
+              <div class="post-card__header">
+                <time class="post-card__date">9-08-2016</time>
+                <div class="post-card__stats a2">
+                  <span class="post-card__stat">
+                    <img src="assets/icons/heart.svg" alt="heart-icon" />
+                    128</span
+                  >
+                  <span class="post-card__stat post-card__right">
+                    <img src="assets/icons/heart.svg" alt="heart-icon" />
+                    67</span
+                  >
+                </div>
+              </div>
+
+              <div class="post-card__description a4">
+                <p class="post-card__upload">Image upload</p>
+                <p class="post-card__time">11-04-2016</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="post-card">
+            <div class="post-card__image-wrapper">
+              <img class="post-card__image" src="./assets/imgs/img3.jpg" alt="Clouds" />
+            </div>
+
+            <div class="post-card__content">
+              <div class="post-card__header mobile-none">
+                <h3 class="post-card__title">Today</h3>
+                <div class="post-card__stats a1">
+                  <span class="post-card__stat">
+                    <img src="assets/icons/heart.svg" alt="heart-icon" />
+                    128</span
+                  >
+                  <span class="post-card__stat">
+                    <img src="assets/icons/msg.svg" alt="msg-icon" />
+                    31</span
+                  >
+                </div>
+              </div>
+
+              <div class="post-card__header">
+                <time class="post-card__date">9-08-2016</time>
+                <div class="post-card__stats a2">
+                  <span class="post-card__stat">
+                    <img src="assets/icons/heart.svg" alt="heart-icon" />
+                    128</span
+                  >
+                  <span class="post-card__stat post-card__right">
+                    <img src="assets/icons/heart.svg" alt="heart-icon" />
+                    67</span
+                  >
+                </div>
+              </div>
+
+              <div class="post-card__description a4">
+                <p class="post-card__upload">Image upload</p>
+                <p class="post-card__time">11-04-2016</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="post-card">
+            <div class="post-card__image-wrapper">
+              <img class="post-card__image" src="./assets/imgs/img4.jpg" alt="Clouds" />
+            </div>
+
+            <div class="post-card__content">
+              <div class="post-card__header mobile-none">
+                <h3 class="post-card__title">Today</h3>
+                <div class="post-card__stats a1">
+                  <span class="post-card__stat">
+                    <img src="assets/icons/heart.svg" alt="heart-icon" />
+                    128</span
+                  >
+                  <span class="post-card__stat">
+                    <img src="assets/icons/msg.svg" alt="msg-icon" />
+                    31</span
+                  >
+                </div>
+              </div>
+
+              <div class="post-card__header">
+                <time class="post-card__date">9-08-2016</time>
+                <div class="post-card__stats a2">
+                  <span class="post-card__stat">
+                    <img src="assets/icons/heart.svg" alt="heart-icon" />
+                    128</span
+                  >
+                  <span class="post-card__stat post-card__right">
+                    <img src="assets/icons/heart.svg" alt="heart-icon" />
+                    67</span
+                  >
+                </div>
+              </div>
+
+              <div class="post-card__description a4">
+                <p class="post-card__upload">Image upload</p>
+                <p class="post-card__time">11-04-2016</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="post-card">
+            <div class="post-card__image-wrapper">
+              <img class="post-card__image" src="./assets/imgs/img.jpg" alt="Clouds" />
+            </div>
+
+            <div class="post-card__content">
+              <div class="post-card__header mobile-none">
+                <h3 class="post-card__title">Today</h3>
+                <div class="post-card__stats a1">
+                  <span class="post-card__stat">
+                    <img src="assets/icons/heart.svg" alt="heart-icon" />
+                    128</span
+                  >
+                  <span class="post-card__stat">
+                    <img src="assets/icons/msg.svg" alt="msg-icon" />
+                    31</span
+                  >
+                </div>
+              </div>
+
+              <div class="post-card__header">
+                <time class="post-card__date">9-08-2016</time>
+                <div class="post-card__stats a2">
+                  <span class="post-card__stat">
+                    <img src="assets/icons/heart.svg" alt="heart-icon" />
+                    128</span
+                  >
+                  <span class="post-card__stat post-card__right">
+                    <img src="assets/icons/heart.svg" alt="heart-icon" />
+                    67</span
+                  >
+                </div>
+              </div>
+
+              <div class="post-card__description a4">
+                <p class="post-card__upload">Image upload</p>
+                <p class="post-card__time">11-04-2016</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="post-card">
+            <div class="post-card__image-wrapper">
+              <img class="post-card__image" src="./assets/imgs/img2.jpg" alt="Clouds" />
+            </div>
+
+            <div class="post-card__content">
+              <div class="post-card__header mobile-none">
+                <h3 class="post-card__title">Today</h3>
+                <div class="post-card__stats a1">
+                  <span class="post-card__stat">
+                    <img src="assets/icons/heart.svg" alt="heart-icon" />
+                    128</span
+                  >
+                  <span class="post-card__stat">
+                    <img src="assets/icons/msg.svg" alt="msg-icon" />
+                    31</span
+                  >
+                </div>
+              </div>
+
+              <div class="post-card__header">
+                <time class="post-card__date">9-08-2016</time>
+                <div class="post-card__stats a2">
+                  <span class="post-card__stat">
+                    <img src="assets/icons/heart.svg" alt="heart-icon" />
+                    128</span
+                  >
+                  <span class="post-card__stat post-card__right">
+                    <img src="assets/icons/heart.svg" alt="heart-icon" />
+                    67</span
+                  >
+                </div>
+              </div>
+
+              <div class="post-card__description a4">
+                <p class="post-card__upload">Image upload</p>
+                <p class="post-card__time">11-04-2016</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="post-card">
+            <div class="post-card__image-wrapper">
+              <img class="post-card__image" src="./assets/imgs/img3.jpg" alt="Clouds" />
+            </div>
+
+            <div class="post-card__content">
+              <div class="post-card__header mobile-none">
+                <h3 class="post-card__title">Today</h3>
+                <div class="post-card__stats a1">
+                  <span class="post-card__stat">
+                    <img src="assets/icons/heart.svg" alt="heart-icon" />
+                    128</span
+                  >
+                  <span class="post-card__stat">
+                    <img src="assets/icons/msg.svg" alt="msg-icon" />
+                    31</span
+                  >
+                </div>
+              </div>
+
+              <div class="post-card__header">
+                <time class="post-card__date">9-08-2016</time>
+                <div class="post-card__stats a2">
+                  <span class="post-card__stat">
+                    <img src="assets/icons/heart.svg" alt="heart-icon" />
+                    128</span
+                  >
+                  <span class="post-card__stat post-card__right">
+                    <img src="assets/icons/heart.svg" alt="heart-icon" />
+                    67</span
+                  >
+                </div>
+              </div>
+
+              <div class="post-card__description a4">
+                <p class="post-card__upload">Image upload</p>
+                <p class="post-card__time">11-04-2016</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="post-card">
+            <div class="post-card__image-wrapper">
+              <img class="post-card__image" src="./assets/imgs/img4.jpg" alt="Clouds" />
+            </div>
+
+            <div class="post-card__content">
+              <div class="post-card__header mobile-none">
+                <h3 class="post-card__title">Today</h3>
+                <div class="post-card__stats a1">
+                  <span class="post-card__stat">
+                    <img src="assets/icons/heart.svg" alt="heart-icon" />
+                    128</span
+                  >
+                  <span class="post-card__stat">
+                    <img src="assets/icons/msg.svg" alt="msg-icon" />
+                    31</span
+                  >
+                </div>
+              </div>
+
+              <div class="post-card__header">
+                <time class="post-card__date">9-08-2016</time>
+                <div class="post-card__stats a2">
+                  <span class="post-card__stat">
+                    <img src="assets/icons/heart.svg" alt="heart-icon" />
+                    128</span
+                  >
+                  <span class="post-card__stat post-card__right">
+                    <img src="assets/icons/heart.svg" alt="heart-icon" />
+                    67</span
+                  >
+                </div>
+              </div>
+
+              <div class="post-card__description a4">
+                <p class="post-card__upload">Image upload</p>
+                <p class="post-card__time">11-04-2016</p>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <button class="btn-load">LOAD MORE</button>
+      </div>
+    </section>
+
+    <div class="page-bg-bot"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
