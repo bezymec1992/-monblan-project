@@ -6,8 +6,6 @@ body {
   padding: 30px 0;
   z-index: 2;
   position: relative;
-}
-.hero {
   box-shadow:
     0 -10px 20px rgba(0, 0, 0, 0.35),
     inset 0 10px 20px rgba(0, 0, 0, 0.35);
