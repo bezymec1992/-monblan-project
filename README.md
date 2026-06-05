@@ -19,6 +19,7 @@
 - Hover effects for interactive elements
 - Cross-browser friendly styles
 - Mobile-friendly interface
+- Local font integration using @font-face for improved performance and offline availability
 
 ## Features
 
